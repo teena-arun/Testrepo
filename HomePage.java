@@ -109,6 +109,7 @@ public class HomePage {
 		if(assosciatedanimalslbl.isDisplayed()) {
 			System.out.println(assosciatedanimalslbl.getText());
 			Assert.assertEquals("Associated Animals", assosciatedanimalslbl.getText());
+                        System.out.println("Value asserted successfully");
 			
 			val=true;
 		}
